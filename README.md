@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bryt Designs Front-end Tech Challenge
 
-## Getting Started
+### React and Vanilla Js Multi-step Forms
 
-First, run the development server:
+### Hello fellow candidate! 👋
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+###### Today's challenge is to build two versions of a multi-step form, one version using Javascript/JQuery, HTML, CSS/Bootstrap and the other version using React and CSS/Tailwindcss. The styling is completely up to you, feel free to get creative 😎!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Why a multi-step form? 🤔
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+###### We believe it's the best challenge to demonstrate your technical skills, problem solving and your knowledge of HTML and CSS basics.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Why the two different tech stacks? 👨‍💻
 
-## Learn More
+###### The reason for the two different tech stacks has to do with the technology we use everyday. While we are moving our tech stack be more React/JS focused, some of our older projects that we maintain still use Vanilla Javascript and JQuery.
 
-To learn more about Next.js, take a look at the following resources:
+### What's the goal of this challenge? ⚽
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+###### I'm glad you asked! We want to get an understanding of your abilities by measuring how creative you can be, how readable your code is and how you approach problems.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### What's the process like?
 
-## Deploy on Vercel
+###### You have 4 hours from project start to complete this challenge and submit your repo via email for review.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Assets:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. [Figma Mock-up](https://www.figma.com/file/ZhMFAK1UWwKWS0L25LAYyx/Bryt-Designs-Front-end-Tech-Challenge?node-id=1%3A2)
+2. [Font Awesome](https://fontawesome.com/search?m=free&s=solid%2Cregular)
+4. Next Js
+   1. [Next.js](https://nextjs.org/docs)
+   2. [React.js](https://react.dev/)
+   2. [Tailwindcss](https://tailwindcss.com/docs/installation)
+
+**While we love dependencies and the ability to use other libraries created by amazing developers. For this challenge, please only stick to using the provided dependencies. You may install whatever icon library necessary. Both templates come with Font Awesome Icon as the default.**
+
+#### Requirements:
+
+- [ ] Please ensure you have all of the required fields and **follow** the structure of the provided wireframe.
+- [ ] The form should be broken up into multiple steps and only one step should be visible at a time.
+- [ ] Every step outside of the first step **SHOULD** have next and back button.
+  - [ ] The first step **should not** have a back button.
+  - [ ] The next button goes to the next step.
+  - [ ] The next button should be disabled if the user has **not** filled out all of the **required** fields.
+  - [ ] The back button should go back to the previous step.
+- [ ] Going back to the previous step **should not** require the user to fill out the **required** fields again.
+- [ ] Submitting the form should not refresh the page.
+- [ ] Once submitted, the field names and their values should be logged to the console as a JSON string. **(Only the fields with values should be included within the JSON string)**
+  - example `{"firstName": "Bryt", "lastName": "Designs"}`
+
+#### Extras _(These are just nice haves if you have more time. Do not prioritize otherwise)_
+
+- [ ] Transition animations between each step.
+- [ ] Active, Focus and Hover styling for input fields and buttons.
+- [ ] Input field values saved to local storage.
+  - [ ] On page load all of the fields should be populated with their respective values from local storage.
+- [ ] URL updates depending on which step within the form the user is on.
+- [ ] Form validation
+  - [ ] Should display the error message if the value the user entered is invalid.
+  - [ ] Every field should type check what the user is inputting.
