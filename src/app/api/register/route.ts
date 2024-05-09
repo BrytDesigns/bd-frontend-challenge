@@ -7,8 +7,7 @@ export const POST = withZod(async (request, data) => {
   return new Response(
     JSON.stringify({
       data: {
-        message:
-          "Thank you for contacting us. We will get back to you as soon as possible.",
+        message: "You've successfully registered!",
       },
     }),
     {
