@@ -10,10 +10,6 @@
 
 ###### We believe it's the best challenge to demonstrate your technical skills, problem solving and your knowledge of HTML and CSS basics.
 
-### Why the two different tech stacks? 👨‍💻
-
-###### The reason for the two different tech stacks has to do with the technology we use everyday. While we are moving our tech stack be more React/JS focused, some of our older projects that we maintain still use Vanilla Javascript and JQuery.
-
 ### What's the goal of this challenge? ⚽
 
 ###### I'm glad you asked! We want to get an understanding of your abilities by measuring how creative you can be, how readable your code is and how you approach problems.
@@ -22,16 +18,17 @@
 
 ###### You have 4 hours from project start to complete this challenge and submit your repo via email for review.
 
-### Assets:
+### Resources:
 
 1. [Figma Mock-up](https://www.figma.com/file/ZhMFAK1UWwKWS0L25LAYyx/Bryt-Designs-Front-end-Tech-Challenge?node-id=1%3A2)
 2. [Font Awesome](https://fontawesome.com/search?m=free&s=solid%2Cregular)
-4. Next Js
+3. Next Js
    1. [Next.js](https://nextjs.org/docs)
    2. [React.js](https://react.dev/)
-   2. [Tailwindcss](https://tailwindcss.com/docs/installation)
+   3. [Tailwindcss](https://tailwindcss.com/docs/installation)
+   4. [Zod](https://zod.dev/?id=ip-addresses)
 
-**While we love dependencies and the ability to use other libraries created by amazing developers. For this challenge, please only stick to using the provided dependencies. You may install whatever icon library necessary. Both templates come with Font Awesome Icon as the default.**
+**While we love dependencies and the ability to use other libraries created by amazing developers. For this challenge, please only stick to using the provided dependencies. You may install whatever icon library necessary.**
 
 #### Requirements:
 

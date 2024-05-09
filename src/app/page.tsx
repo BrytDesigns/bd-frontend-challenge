@@ -10,7 +10,7 @@ export default function Home() {
     <main className="w-screen h-screen flex flex-col gap-8 justify-center items-center max-w-2xl mx-auto">
       <h1 className="text-6xl">Hello {name} and good luck 😄!</h1>
       <h3 className="text-3xl font-semibold">
-        For this one, please stick to React, CSS and tailwindcss! 💃
+        For this one, please stick to React, Zod, CSS and tailwindcss! 💃
       </h3>
       <p>
         This template also has font awesome icon library installed as well. Feel
@@ -26,13 +26,27 @@ export default function Home() {
         </a>{" "}
         or whatever icon library you want to use :3
       </p>
-      <input
-        className="border-2 border-yellow-500 rounded p-4 text-2xl w-full dark:bg-black dark:text-gray-300 dark:placeholder:text-gray-400"
-        name="name"
-        placeholder="name"
-        value={name}
-        onChange={({ target }) => setName(target.value)}
-      />
+      <form
+        onSubmit={async (e) => {
+          e.preventDefault();
+          const req = await fetch("/api/contact", {
+            method: "POST",
+            body: new FormData(e.target as HTMLFormElement),
+          });
+
+          const data = await req.json();
+
+          console.log(data);
+        }}
+      >
+        <input
+          className="border-2 border-yellow-500 rounded p-4 text-2xl w-full dark:bg-black dark:text-gray-300 dark:placeholder:text-gray-400"
+          name="name"
+          placeholder="name"
+          value={name}
+          onChange={({ target }) => setName(target.value)}
+        />
+      </form>
     </main>
   );
 }
