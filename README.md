@@ -18,6 +18,13 @@
 
 ###### You have 4 hours from project start to complete this challenge and submit your repo via email for review.
 
+### Requirements:
+1. [Node version 20](https://nodejs.org/en/download)
+
+### Commands:
+Depends on the package manager you prefer using!
+`npm run dev`
+
 ### Resources:
 
 1. [Figma Mock-up](https://www.figma.com/file/ZhMFAK1UWwKWS0L25LAYyx/Bryt-Designs-Front-end-Tech-Challenge?node-id=1%3A2)
