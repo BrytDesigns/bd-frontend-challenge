@@ -1,10 +1,10 @@
 import {
     formDataSchema,
   formJsonSchema,
-  type ContactFormData,
-  type ContactFormJson,
+  type RegisterFormData,
+  type RegisterFormJson,
 } from "./schemas";
-type Data = ContactFormData | ContactFormJson;
+type Data = RegisterFormData | RegisterFormJson;
 
 
 type PostHandler = (

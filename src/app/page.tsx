@@ -26,19 +26,7 @@ export default function Home() {
         </a>{" "}
         or whatever icon library you want to use :3
       </p>
-      <form
-        onSubmit={async (e) => {
-          e.preventDefault();
-          const req = await fetch("/api/contact", {
-            method: "POST",
-            body: new FormData(e.target as HTMLFormElement),
-          });
-
-          const data = await req.json();
-
-          console.log(data);
-        }}
-      >
+      <form>
         <input
           className="border-2 border-yellow-500 rounded p-4 text-2xl w-full dark:bg-black dark:text-gray-300 dark:placeholder:text-gray-400"
           name="name"

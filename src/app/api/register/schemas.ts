@@ -53,5 +53,5 @@ export const formDataSchema = zfd
     return data.password === data.confirmPassword;
   }, "Your passwords do not match. Please try again.");;
 
-export type ContactFormData = z.infer<typeof formDataSchema>;
-export type ContactFormJson = z.infer<typeof formJsonSchema>;
+export type RegisterFormData = z.infer<typeof formDataSchema>;
+export type RegisterFormJson = z.infer<typeof formJsonSchema>;
